@@ -5,9 +5,9 @@ body {
   .dino {
     position: absolute;
     bottom: 0;
-    background-image: url(dino.png);
-    width: 60px;
-    height: 60px;
+    background-image: url(dinorun.gif);
+    width: 65px;
+    height: 100px;
     margin-left: 100px;
   }
   
