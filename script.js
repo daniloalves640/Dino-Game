@@ -40,11 +40,13 @@ function jump() {
 
 function score(){
   let time = setTimeout (score, 100);
+  let highscore = 0;
   document.getElementById("score").innerHTML = time;
-}
-
-function hiscore() {
-  clearInterval(score);
+  highscore = localStorage.getItem("highscore");
+  document.getElementById("highscore").innerHTML = highscore;
+  if (highscore < time){
+    localStorage.setItem("highscore", time);
+  }
 }
 
 function createCactus() {
