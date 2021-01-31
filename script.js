@@ -70,7 +70,6 @@ function createCactus() {
       // Game over
       clearInterval(leftTimer);
       isGameOver = true;
-      hiscore();
       document.body.innerHTML = '<h1 class="game-over">Fim de jogo</h1>';
     } else {
       cactusPosition -= 10;
