@@ -51,4 +51,12 @@ body {
     width: center;
     height: center;
     bottom: center;
+    font-family: arial;
+  }
+  .highscore{
+    position: fixed;
+    width: center;
+    height: center;
+    bottom: center;
+    font-family: arial;
   }
